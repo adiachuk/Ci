@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Ci",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test:ci": "playwright test --reporter=html --project=chromium",
+    "test:headed": "playwright test --headed --project=chromium"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/adiachuk/Ci.git"
