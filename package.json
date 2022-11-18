@@ -1,0 +1,21 @@
+{
+  "name": "ci",
+  "version": "1.0.0",
+  "description": "Ci",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adiachuk/Ci.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adiachuk/Ci/issues"
+  },
+  "homepage": "https://github.com/adiachuk/Ci#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.28.0"
+  }
+}
